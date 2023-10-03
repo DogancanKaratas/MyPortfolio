@@ -6,6 +6,9 @@ body {
   margin: 0;
   padding: 0;
 }
+body::-webkit-scrollbar{
+  display: none;
+}
 a {
   text-decoration: none;
 }
@@ -139,15 +142,16 @@ a {
   background-size: cover;
   background-position: center;
 }
+
 .bar-container {
   width: 50%;
   margin: auto;
   border: 1px outset;
   box-shadow: 1px 1px 5px 3px ;
-  padding: 5px;
+  padding: 5px 10px;
 }
 .bar-flex {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .tag {
   margin: auto;
@@ -201,6 +205,7 @@ a {
   border: 3px outset;
   margin: 40px 25%;
   box-shadow: 1px 1px 5px 3px ;
+  color: rgb(37, 37, 37);
 }
 
 @keyframes slide-in-right {
@@ -214,6 +219,15 @@ a {
 
 @media screen and (max-width: 768px) {
   .flex-50-gt-sm {
-    width: 50%;
+    width: 100%;
+    
   }
+  
+}
+@media screen and (max-width: 1200px){
+  .bar-container{
+    margin-top: 320px;
+    
+  }
+
 }
