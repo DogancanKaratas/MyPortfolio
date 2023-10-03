@@ -1,6 +1,5 @@
 # MyPortfolio
 
 https://dogancankaratas.github.io/MyPortfolio/ 
-
-![](https://github.com/MyPortfolio/Animation-min (1).gif
-)
+<img src="gorsel-link" width="auto">
+<img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="500" height="320" />
